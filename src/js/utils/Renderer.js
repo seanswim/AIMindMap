@@ -15,7 +15,7 @@ class Renderer extends THREE.WebGLRenderer {
   }
 
   update() {
-    const radius = 0.5;
+    const radius = 0.3;
     const angle = Date.now() * 0.0001;
     const theta = 1.3;
 
